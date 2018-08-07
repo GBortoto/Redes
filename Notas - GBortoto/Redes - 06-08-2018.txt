@@ -39,7 +39,7 @@ Ligação entre dispositivos --> Enlace (ligação) (link)
 
   - Largura de banda --> Taxa de transmição (Quantidade de dados (unidade de bytes (B) ou bits (b))/tempo)
 
-Comentário: Telefonia, VoIP e outras redes que não a internet
+(Comentário: Telefonia, VoIP e outras redes que não a internet)
 
 Meio da internet --> Roteadores
   - "Fazer as mensagens ir de um lado para o outro"
@@ -68,4 +68,55 @@ Protocolo
     - Internet Engineering Task Force
     - IEEE
 
-Comentário: História da Internet
+(Comentário: História da Internet)
+(Comentário: Segurança na Internet)
+
+Dois tipos de visões
+  - Visão funcional/de serviço (O que ele faz? Do que ele precisa?) --> "Visão de usuário"
+    - Não interessa como funciona
+    - Interessa quais os serviços que um protocolo oferece e o que ele precisa
+
+  - Visão estrutural (Como ele funciona?) --> "Visão de desenvolvedor"
+    - Como um protocolo é construido
+    - Como ele funciona
+
+Exemplo clássico:
+  - Entrega confiável --> Garantia que vai chegar
+    - Email, transação financeira, etc.
+
+  - Entrega de melhor esforço --> Manda o mais rápido possível ("Mandei e f*da-se")
+    - Filmes, streaming, etc.
+
+(Comentário: Sistemas distribuídos)
+
+Borda de Rede (Sistemas finais)
+  - Modelo Cliente x Servidor
+    - Servidor
+      - Ligado sempre
+      - Recebe requests
+      - Ex.: Google
+
+    - Cliente
+      - Faz requests
+      - Ex.: Computador pessoal
+
+    - Prós:
+      - Mais fácil garantir segurança e sincronicidade --> Maior controle
+    - Cons:
+      - Difícil escalabilidade
+
+(Comentário: Escalabilidade de servidores e Server Farms)
+
+  - Peer to Peer (P2P)
+    - Quanto mais usuários, mais eficiente o sistema fica
+    - Usuários agem como seeds e peers ao mesmo tempo
+
+    - Prós:
+      - Altíssima escalabilidade
+    - Cons:
+      - Difícil garantir segurança
+      - Muito difícil garantir sincronicidade
+
+  - Modelos Híbridos
+
+Faltou modem, cable modem
