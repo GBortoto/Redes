@@ -1,0 +1,71 @@
+Aula Introdutória
+
+Slides do Kurose
+
+Bibliografia:
+  - Redes de Computadores e a Internet - Kurose, Ross
+
+Não estudar pelos slides
+
+________________________________________________________________________________
+
+Tipos de enlace                                                         <prio.1>
+  - Meios físicos
+
+Atrasos                                                                 <prio.5>
+________________________________________________________________________________
+
+Internet
+  - Rede de redes
+  - Grupo de sistemas autônomos independentes
+  - Os sistemas não se conhecem
+  - Não temos controle de todos os sistemas
+
+Borda da Internet
+  - Sistemas finais --> Host (Hospedeiro)
+    - Host = Servidor OU CLIENTE
+  - Ponta da rede
+  - A mensagem "morre" neles
+    - As mensagens que chegar para um sistema final são destinadas a ele
+    - Mensagens não só passam por um sistema final
+    - Não é caminho
+  - Grafos --> Nó terminal
+
+Ligação entre dispositivos --> Enlace (ligação) (link)
+  - Enlace guiado     --> Fio ethernet, cabo coaxial, fibra ótica
+  - Enlace não-guiado --> Sinal de rádio
+    - Problemas de segurança
+    - Interferência --> Necessário algoritmos que detectam e lidam com erro
+
+  - Largura de banda --> Taxa de transmição (Quantidade de dados (unidade de bytes (B) ou bits (b))/tempo)
+
+Comentário: Telefonia, VoIP e outras redes que não a internet
+
+Meio da internet --> Roteadores
+  - "Fazer as mensagens ir de um lado para o outro"
+  - Roteador de borda (Gateway)
+    - Gateway "da sua casa"
+    - Gateway do servidor
+  - Responsáveis por decidir qual a melhor rota para os dados sendo transmitidos
+
+Protocolo
+  - Como tem que ser a comunicação para fazer alguma coisa
+  - Padronizados e abertos
+  - Páginas da web, email, etc.
+
+  - Protocolo
+    - Quais são as mensagens                - Mesagens
+    - Qual o formato dessas mensagens       - Formatos
+    - Quais são as respostas possíveis      - Respostas
+
+    Ex.: Protocolo de tirar dúvidas na sala
+
+  Padrões da internet:
+    - RPC --> Request For Comments
+      - Pessoa coloca uma proposta para um protocolo
+      - Empresas podiam fazer comentários para entrar em um padrão
+      - Mais antigo
+    - Internet Engineering Task Force
+    - IEEE
+
+Comentário: História da Internet
