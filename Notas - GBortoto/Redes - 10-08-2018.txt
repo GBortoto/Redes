@@ -1,0 +1,157 @@
+Redes de acesso e meios físicos
+
+Largura de banda --> Uma das principais variáveis para decidir como conectamos a internet
+
+Dedicada ou compartilhada --> Outra variável importante nessa decisão
+  - Dedicada --> Uma banda é exclusiva do comprador
+    - 100% de banda
+
+  - Compartilhada --> Uma banda é compartilhada entre vários acessos diferentes
+    - Vários acessos simultâneos = Menos internet para todos que estão acessando
+    - Poucos acessos simultâneos = Mais velocidade para quem está acessando
+
+    No passado, havia muito traffic shaping para limitar acessos mais pesados. Hoje em dia existe menos
+
+Comentário: Traffic Shaping
+Comentário: Obrigações legais dos provedores, mudanças nos anos
+
+_____________________ Modem discado ____________________________________________
+
++- 56Kbps
+
+Modem discado --> Conectava na rede telefônica
+
+Comentário: História dos modem discados e diferenças entre brasil e EUA em relação a fiação
+que já existia antes de fiações dedicadas a internet
+
+Telefones antigamente não precisavam ser alimentados por energia elétrica
+  - Completamente analógico
+
+Sinal analógico --> Variações na tensão elétrica
+
+Os sinais entre modems se comunicavam por sinais analógicos
+  - Não dava para falar no telefone e usar a internet ao mesmo tempo --> Usava a mesma infraestrutura
+
+Era necessário um conversor
+sinal digital <-> sinal analógico
+  - Essa conversão é chamada de "modular"
+
+Modem vem de "Modulador" e "Demodulador"
+
+_____________________ DSL ______________________________________________________
+
+Telefone + internet ao mesmo tempo
+
+Digital Subscriber Line
+  - Conexão de até 1Mbps
+
+Mais rápido
+  - Investimento em infraestrutura das empresas (Mais servidores, modem, rede elétrica, etc.)
+    + modificação das legislações --> Devem ter mais pontos de acesso
+
+VDSL
+  - Conexão de até 20Mbps dedicado
+
+_____________________ Acesso residencial: modems a cabo ________________________
+
+_____________________ Fibra ____________________________________________________
+
+MUITO mais rápido
+Muito mais caro
+
+
+
+Assimétrico
+  - Bem mais capacidade de download do que upload
+    - Decidido pelo provedor
+    - Faz sentido --> Usuário típico baixa muito mais do que manda
+
+  - Caso você quiser ser servidor --> Conta de servidor (IP fixo, mais upload, etc.)
+
+
+________________________________________________________________________________
+Final do conteúdo da primeira aula (que ele não chegou a terminar na primeira aula)
+________________________________________________________________________________
+
+Redes residenciais
+  - Modem DSL ou Fibra
+  - Junta em um roteador e divide para wi-fi / cabos
+
+Comentário: IPv4, LAN, falta de IPv4s
+
+Redes de acesso sem fio
+  - LAN sem fio (WAN):
+      IEEE 802.11X/Y
+
+Ethernet --> 10~100Mbps normalmente, chega até Gbps
+
+Acesso à internet por Ethernet
+Comentário: Hub, Switch, roteador
+Comentário: DHCP
+
+_____________________ Meios Físicos ____________________________________________
+
+Ordens de grandeza melhor do que meios não guiados (ex.: wi-fi)
+
+Par trançado
+  - Dois fios de cobre isolados e trançados (verniz)
+    - Resistência mecânica
+    - Um pouquinho de resistência eletromagnética
+
+Cabo Coaxial
+  - Possui um cabo de cobre mais grosso no meio
+    - Perde bem menos a potência do sinal
+  - Dois condutores de cobre concêntricos
+  - Mais isolado, mais protegido
+
+Ethernet (uns 4 padrões diferentes)
+
+Comentário: Pacotes
+
+Fibra ótica
+
+Rádio
+  - micro-ondas terrestre
+  - LAN
+  - Áres ampla
+  - Satélite
+    - Geostacionário Vs Baixa altitude
+
+Comentário: Prédios que matavam passaros com rádio
+
+Tempo de resposta (Atraso, lag, RTT)
+  - Completamente separada de banda
+  - Quanto tempo leva para ir e voltar
+  - Muito mais em função da distância do que da qualidade da rede
+
+  Distância --> Distância geográfica entre os pontos
+  Qualidade --> Ex.: Filas gigantes em roteadores
+
+Coisas que você precisa saber antes de contratar um provedor de internet
+  - Largura de banda
+  - Dedicado ou compartilhado
+  - Lag
+
+Comentário: Projeto de internet para todos usando satélites de baixa altitude
+
+
+
+
+_____________________ Comutação por circuitos Vs Comutação por pacotes _________
+
+Telefonia --> Circuitos
+Internet --> Pacotes
+
+Comutação por circuitos
+  - Reserva recursos (dedicada)
+    - Largura de banda
+    - Capacidade de comutação
+    - Memória no roteador
+  - Tempo de preparação de chamada
+
+  - FDM e TDM
+    - Frequency Division Multiplexing
+    - Time Division Multiplexing
+
+
+Primeira provinha não nessa segunda, mais na próxima (dia 20/08)
