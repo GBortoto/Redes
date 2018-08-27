@@ -1,0 +1,40 @@
+Intro - Revisão - Retomando a última aula
+
+________________________________________________________________________________
+
+Multiplexação estatística
+  - Whatever, só vai
+  - Vai o pacote que tiver, quando tiver
+  - Funil
+
+Comutação de pacotes x Comutação de circuitos
+
+Primeira tarefa --> Traceroot
+
+
+Atraso
+  - Os pacotes tem que se infileirar --> Pode causar atraso e perda de pacotes
+  - Outra forma de ter perda --> Interferência no enlace (Mais comum no sem fio)
+
+Tipos de atrasos (Medidos em tempo)
+  1) Atraso de propagação --> Não tem como fugir --> Tempo de viagem dos eletrons
+    - Fácil de calcular (MRU) --> Distância/Velocidade --> d/s (Distance/speed)
+    - Normalmente interessado no tempo de ida E volta (RTT = Round Trip Time)
+
+  2) Atraso de transmissão
+    - Tamanho do pacote / taxa de transmissão
+    - Tempo que o pacote leva para sair do computador --> Também não tem como fugir
+    - Atrasos de transmissão PARA CADA ROTEADOR (Em cada nó)
+    e.g.:
+    PC1 --> R1 --> R2 --> R3 --> PC2
+          *      *      *      *
+
+  3) Atraso de enfileiramento
+    - Fila nos roteadores --> Não da para calcular com precisão
+
+  4) Atraso de processamento
+
+Vazão
+
+Segunda tarefa --> Pesquisar sobre o modelo de camadas OSI
+  - Quais camadas tem no OSI e não no modelo apresentado
