@@ -1,0 +1,7 @@
+Considere um hospedeiro A enviando um único pacote de tamanho L bytes para o hospedeiro B. A e B encontram-se a uma distância de 25Km e estâo conectados por meio de 5 enlaces de 5Km cada, nos quais a velocidade de propagação do sinal é de 2.5x10^8m/s, totalizando 4 roteadores no caminho. Todos os enlaces tem capacidade de transmissão de 10^6 bytes/s (~8Mbps). Todos os roteadores, bem como hospedeiros, demoram 10 microsegundos para processar o pacote. Considere que A é o único hospedeiro enviando pacotes pela rede no momento e que a mesma não está congestionada, não havendo atraso de enfileiramento.
+
+a) Calcule o atraso, em função de L, para enviar o pacote de A a B usando Comutação de Pacotes, com todos os roteadores utilizando transmissão store-and-forward (ou seja, o pacote deve ser recebido por inteiro antes de começar a ser enviado).
+
+b) Calcule o atraso, em função de L, para enviar o pacote de A a B usando Comutação de circuitos, sem atraso devido ao store-and-forward ou processamento, mas com necessidade de 4.25ms para estabelecer a conexão e imaginando que todos os recursos são dedicados para essa conexão.
+
+c) Analisando os resultados obtidos nos itens anteriores, é possível concluir que, nesse cenário, para pacotes com até um certo tamanho L1, o uso da comutação de pacotes é vantajosa, apesar do atraso de store-and-forward, devido ao tempo necessário para estabelecer a conexão, mas para pacotes maiores a comutação de circuitos acaba fornecendo um atraso menor. Calcule o valor de L1.
