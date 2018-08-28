@@ -1,0 +1,49 @@
+Sobre o EP 1
+  Grupo:
+    - 2 a 3 pessoas
+
+  Objetivo:
+    - Desenvolver uma aplicação distribuida
+
+  Tarefas:
+    Primeira tarefa: Propor uma aplicação distribuida
+
+  Características do Trabalho
+    - Programar diretamente com os serviços da camada de transporte (Trabalhar com UDP e/ou TCP)
+    - Usar API de sockets de alguma linguagem de programação
+    - Não esconder muito a parte de threads e sockets
+      - No mínimo duas threads (Normalmente bem mais)
+        - Input
+        - Interação com usuário
+        - ...
+
+  Linguagem:
+    - Java (Prefirível)
+    - C# Sharp
+    - Python
+
+  Data final
+    - 5 a 6 semanas
+      (Provável: começo de outubro)
+
+  Correção
+    - Nota em função da complexidade da parte de redes
+
+  Complexidade
+    - Jeito mais fácil de gerar complexidade --> Protocolo complexo (Muitos tipos de mensagens)
+    - Outra forma --> Arquitetura híbrida muito complexa (P2P e Servidor)
+    - Outra forma --> Segurança
+
+  Relatório
+    - Aplicação
+      - O que é?
+    - Arquitetura
+      - Qual vai ser?
+        - Cliente-servidor
+        - Peer to Peer
+        - Sistema híbrido
+    - Protocolo
+      Sintaxe, respostas
+    - Como executar
+    - Testes
+    - Discussão de resultados
